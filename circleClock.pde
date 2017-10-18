@@ -35,6 +35,6 @@ void draw() {
   if (minute / 6 < 10) {
     text("0" + str(minute / 6), 120, 175);
   } else {
-    text(str(minute / 6), 120, 130);
+    text(str(minute / 6), 120, 175);
   }
 }
